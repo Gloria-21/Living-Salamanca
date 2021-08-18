@@ -29,6 +29,41 @@ This project has been designed with someone that is interested in learning Spani
 
 ## Deployment
 
+This website has been developed on Gitpod, using Github to host the repository
+
+### Via Gitpod 
+
+These are the step followed to deploy via Gitpod:
+1. Log in to the Gitpod account 
+2. Chose the MS1 repository
+3. Add your code 
+4. Type "python3 -m http.server" on the terminal
+5. A new screen will pop up with the results of the code on the browser
+### GitHub pages
+
+These are the steps followed to deploy this website using GitHub:
+
+1. Log in to your  GitHub account
+2. Select MS1 on my repositories
+3. Go to settings on the repository
+4. Scroll down to the GitHub pages area
+5. Select the Master Branch from the Source dropdown menu
+6. Confirm my selection 
+
+After this, the website was live on GitHub pages
+
+### Making a Local Clone
+
+Making a local clone of your repository allow others to view the original code and even to add changes on their own local copy.
+
+To do so you have to 
+1. Log in to GitHub and select teh repository you wish to clone
+2. Click the download button or Code button
+3. Copy the url that will show on the box
+4. Open Gitpod (or your preferred IDE)
+5. Use the "git clone" command in the terminal followed by url copied before
+
+A clone of the original repository should be available on your computer
 ## Credits
  ### Content
  * [Tia Tula Spanish School](https://www.tiatula.com/)
