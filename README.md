@@ -30,3 +30,14 @@ This project has been designed with someone that is interested in learning Spani
 ## Deployment
 
 ## Credits
+ ### Content
+ * [Tia Tula Spanish School](https://www.tiatula.com/)
+ * [Salamanca-Spain](http://salamanca-spain.info/)
+ ### Media
+ ### Code
+ * [Code Intitute](https://codeinstitute.net/)
+ * [Slack Community](https://slack.com/intl/en-no/)
+ * [Stack Overflow](https://stackoverflow.com/)
+ * [W3 School](https://www.w3schools.com/)
+
+
