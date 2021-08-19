@@ -13,3 +13,28 @@ body {
     color: firebrick;
 }
 
+/* Navbar*/
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    color: beige;
+    background-color: firebrick;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 600;
+    color: beige;
+    background-color: firebrick;
+}
+
+.navbar-brand:hover {
+    color: orangered;
+}
