@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&display=swap');
 
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    color: firebrick;
+}
+
