@@ -29,7 +29,7 @@ body {
 .navbar-brand {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     font-weight: 600;
     color: beige;
     background-color: firebrick;
@@ -37,4 +37,16 @@ body {
 
 .navbar-brand:hover {
     color: orangered;
+}
+
+.navbar {
+    border: 0;
+    width: 100%;
+    background-color: firebrick;
+    color: beige;
+}
+
+.navbar-toggler {
+    border: 0;
+    color: beige;
 }

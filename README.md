@@ -69,6 +69,14 @@ A clone of the original repository should be available on your computer
  * [Tia Tula Spanish School](https://www.tiatula.com/)
  * [Salamanca-Spain](http://salamanca-spain.info/)
  ### Media
+ Some of the photos shown on this prject have been taken from [Pexel](https://www.pexels.com/) as per below
+ * [Enging Akyurt](https://www.pexels.com/photo/white-bed-sheet-set-2736388/) for the acommodation
+ * [Phil Evenden](https://www.pexels.com/photo/city-water-building-lake-8335363/)
+
+ Also I have used [Unplash]()
+ * [Sergio Otoya](https://unsplash.com/photos/pDd4-iD9KTo) for the eating image
+ * [Charles Deluvio](https://unsplash.com/photos/pDd4-iD9KTo) for the shopping image
+  
  ### Code
  * [Code Intitute](https://codeinstitute.net/)
  * [Slack Community](https://slack.com/intl/en-no/)
