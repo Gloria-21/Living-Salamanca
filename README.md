@@ -15,7 +15,26 @@ This project has been designed with someone that is interested in learning Spani
 
 ## Desing
 
-The logo for this website has been created using [Canva](https://www.canva.com/design/play?category=tACZCvjI6mE)
+* **Logo**
+
+    I have chosen a globe as a logo for this website as it represents the diversity of nationalities that you can find in Salamanca. Also, it represents the openness of a city that traditionally has been welcoming international students since medieval times.
+    The logo for this website has been created using [Canva](https://www.canva.com/design/play?category=tACZCvjI6mE)
+
+* **Typography**
+
+    The font use on the website has been chosen from [Google Fonts](https://fonts.google.com/). I have chosen Lato for the Navbar and headers and Roboto for the body
+
+* **Colour Scheme**
+
+    The colour scheme for the website follows the Salamanca University tradition. 
+    I have chosen the #beige as it is similar to the typical golden sandstone that can be found on the historical buildings in Salamanca, and the #firebrick as it is similar to the ink that you can see on those walls. What it can be seen in there is the word "Vitor" (Victory) with the students initial after they were graduated. These ink was made originally with bull's blood, hence the red color.
+
+    For the hovering effect I decided to go for #FFB91C as it contrast quite nicely against the #firebrick
+
+    To create this palette I have used [coolors](https://coolors.co/)
+    ![Palette](/doc/screenshots/palette.png)
+
+
 
 ## Wireframe
 
