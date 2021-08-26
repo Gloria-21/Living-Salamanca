@@ -54,11 +54,11 @@ As it follows below
 
 2. [Google Font](https://fonts.google.com/)
 
-    I have used Google font to import "Josefine Slab" into my style.css file, which is being used on all pages throughout the project
+    I have used Google font to import the fonts Lato and Roboto into my style.css file, which is being used on all pages throughout the project
 
-3. [FontAwesome](https://fontawesome.com/)
+3. [Flaticon](https://www.flaticon.com/)
 
-    Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes
+    Used for the icons on this website
 
  4. [Balsamiq](https://balsamiq.com/)
 
