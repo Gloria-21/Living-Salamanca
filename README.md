@@ -32,6 +32,7 @@ This project has been designed with someone that is interested in learning Spani
     For the hovering effect I decided to go for #FFB91C as it contrast quite nicely against the #firebrick
 
     To create this palette I have used [coolors](https://coolors.co/)
+
     ![Palette](/doc/screenshots/palette.png)
 
 
