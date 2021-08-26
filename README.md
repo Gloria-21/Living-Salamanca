@@ -41,6 +41,37 @@ This project has been designed with someone that is interested in learning Spani
 
 ## Technologies used
 
+As it follows below
+### Languages used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) I have used HTML5 to design the structure  and the content of the website 
+
+* [CSS3](https://en.wikipedia.org/wiki/CSS) I have used CSS3 to style the apearence of the website
+### Frameworks, Libraries & Programs Used
+
+1. [Bootsrap 4.4.1](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
+    I have used Bootstrap to help with the responsiveness of the website as well as the styling
+
+2. [Google Font](https://fonts.google.com/)
+
+    I have used Google font to import "Josefine Slab" into my style.css file, which is being used on all pages throughout the project
+
+3. [FontAwesome](https://fontawesome.com/)
+
+    Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes
+
+ 4. [Balsamiq](https://balsamiq.com/)
+
+    I used Balsamiq to create the wireframing during the design process
+
+5. [Git](https://git-scm.com/)
+
+    Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
+
+6. [Github](https://github.com/Gloria-21/yoga-project)
+
+    I used GitHub to store the project's code after being pushed from Gitpod
+
 ## Testing
 
 ## Test user stories
