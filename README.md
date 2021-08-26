@@ -48,7 +48,7 @@ As it follows below
 * [CSS3](https://en.wikipedia.org/wiki/CSS) I have used CSS3 to style the apearence of the website
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootsrap 4.4.1](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootsrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
     I have used Bootstrap to help with the responsiveness of the website as well as the styling
 
