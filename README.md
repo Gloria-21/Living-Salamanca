@@ -15,6 +15,8 @@ This project has been designed with someone that is interested in learning Spani
 
 ## Desing
 
+The logo for this website has been created using [Canva](https://www.canva.com/design/play?category=tACZCvjI6mE)
+
 ## Wireframe
 
 ## Technologies used
