@@ -80,4 +80,14 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+ /* Carousel */
 
+ .carousel-item {
+     width: 60%;
+     margin: auto;
+     border: 5px black;
+ }
+
+ .carousel-caption {
+     
+ }
