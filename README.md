@@ -43,9 +43,11 @@ This project has been designed with someone that is interested in learning Spani
 
 As it follows below
 ### Languages used
-* [HTML5](https://en.wikipedia.org/wiki/HTML5) I have used HTML5 to design the structure  and the content of the website 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) 
 
-* [CSS3](https://en.wikipedia.org/wiki/CSS) I have used CSS3 to style the apearence of the website
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootsrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
@@ -68,9 +70,13 @@ As it follows below
 
     Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
 
-6. [Github](https://github.com/Gloria-21/yoga-project)
+6. [Github](https://github.com/Gloria-21/Living-Salamanca)
 
     I used GitHub to store the project's code after being pushed from Gitpod
+
+7. [TinyPNG](https://tinypng.com/)
+
+    I used TinyPNG to compress images making them load faster
 
 ## Testing
 
