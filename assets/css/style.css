@@ -82,12 +82,16 @@ footer {
 }
  /* Carousel */
 
- .carousel-item {
-     width: 60%;
-     margin: auto;
-     border: 5px black;
+ .carousel-container {
+     align-items: center;
+     max-width: 60%;
+     margin-left: 25%;
+     margin-top: 10%;
+     
  }
 
- .carousel-caption {
+ .carousel-caption h3{
+     background-color: firebrick;
+     color: beige
      
  }
