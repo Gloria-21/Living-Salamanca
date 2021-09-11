@@ -11,6 +11,13 @@ This project has been designed with someone that is interested in learning Spani
 * As an international student, I will like to learn about the culture of a different country and the rich history of Salamanca
 ## Features
 
+* Navbar 
+
+* Hero image
+
+* Carousel
+
+* Map section
 ## Future features
 
 ## Desing
@@ -50,7 +57,7 @@ As it follows below
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootsrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+1. [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
     I have used Bootstrap to help with the responsiveness of the website as well as the styling
 
@@ -62,7 +69,7 @@ As it follows below
 
     Used for the icons on this website
 
- 4. [Balsamiq](https://balsamiq.com/)
+4. [Balsamiq](https://balsamiq.com/)
 
     I used Balsamiq to create the wireframing during the design process
 
@@ -78,11 +85,20 @@ As it follows below
 
     I used TinyPNG to compress images making them load faster
 
+8. [Google Maps Platform](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration?hl=en)
+
 ## Testing
 
 ## Test user stories
 
 ## Fixed bugs
+
+This preyect has been quite challenging as the desing I had in mind didn't contain anough javaScript content, therefore I decided to change some of the features to fill this gap.
+I decided to create a Navbar with JS
+
+Regarding the carusel, has been also quite challenging as it is a feature that I have never used before. It is not resposive so far - work in progress
+
+Another feature that is brand new for me is the design of the maps. I have followed the Google Maps plataform to create the map that you can find on the website. I have chosen the map with markes animations with set timeout and I have adapted to my design.
 
 ## Suported screen and browsers
 
