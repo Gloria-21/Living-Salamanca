@@ -11,8 +11,8 @@ const neighborhoods = [
   
   function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 5,
-      center: { lat: 40.970104, lng: -5.663540 },
+      zoom: 15,
+      center: { lat: 40.965320, lng: -5.663970 },
     });
     document.getElementById("drop").addEventListener("click", drop);
   }
