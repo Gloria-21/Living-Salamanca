@@ -1,3 +1,14 @@
+// carousel calling to the Maps section
+
+const button = document.querySelector("#button");
+const section = document.querySelector("#section");
+
+button.addEventListener("click", function() {
+    section.style.display = 'block';
+})
+
+
+
 // Maps
 
 const neighborhoods = [
