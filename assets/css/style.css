@@ -101,11 +101,15 @@ footer {
 
 #section {
     flex-direction: column;
-    
+    display: none;
 }
 
 .container-fluid{
     margin-top: 50px;
+}
+
+.fas {
+    font-size: 50px;
 }
 
  #map {
@@ -113,15 +117,11 @@ footer {
     height: 500px;
  }
 
- .box-shadow {
-
- }
-
  .btn {
     top: 10px;
     left: 25%;
-    background-color: #fff;
-    color: firebrick;
+    background-color: firebrick;
+    color: beige;
     font-weight: bold;
     padding: 5px;
     border: 1px solid #999;
