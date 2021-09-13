@@ -96,7 +96,7 @@ As it follows below
 This preyect has been quite challenging as the desing I had in mind didn't contain anough javaScript content, therefore I decided to change some of the features to fill this gap.
 I decided to create a Navbar with JS
 
-Regarding the carusel, has been also quite challenging as it is a feature that I have never used before. It is not resposive so far - work in progress
+Regarding the carusel, has been also quite challenging as it is a feature that I have never used before. I decided to have a button on each slide of the carousel and link it to the section right below it so it would have the visual element from the slide and also an explanation below. To get this effect I used an event listener on JavaSript
 
 Another feature that is brand new for me is the design of the maps. I have followed the Google Maps plataform to create the map that you can find on the website. I have chosen the map with markes animations with set timeout and I have adapted to my design.
 
