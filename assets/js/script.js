@@ -1,13 +1,32 @@
 // carousel calling to the Maps section
 
-const button = document.querySelector("#button");
-const section = document.querySelector("#section");
+const button1 = document.querySelector("#button-visit");
+const section1 = document.querySelector("#section-first");
 
-button.addEventListener("click", function() {
-    section.style.display = 'block';
+button1.addEventListener("click", function() {
+    section1.style.display = 'block';
 })
 
+const button2 = document.querySelector("#button-accomodation");
+const section2 = document.querySelector("#section-second");
 
+button2.addEventListener("click", function() {
+    section2.style.display = 'block';
+})
+
+const button3 = document.querySelector("#button-eating");
+const section3 = document.querySelector("#section-third");
+
+button3.addEventListener("click", function() {
+    section3.style.display = 'block';
+})
+
+const button4 = document.querySelector("#button-shopping");
+const section4 = document.querySelector("#section-fourth");
+
+button4.addEventListener("click", function() {
+    section4.style.display = 'block';
+})
 
 // Maps
 
