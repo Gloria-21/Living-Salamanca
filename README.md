@@ -151,6 +151,8 @@ A clone of the original repository should be available on your computer
  Also I have used [Unplash]()
  * [Sergio Otoya](https://unsplash.com/photos/pDd4-iD9KTo) for the eating image
  * [Charles Deluvio](https://unsplash.com/photos/pDd4-iD9KTo) for the shopping image
+
+ The bottom image has been taken from [Wikitravel.org](https://wikitravel.org/shared/File:Salamanca_Banner.jpg)
   
  ### Code
  * [Code Intitute](https://codeinstitute.net/)
