@@ -29,7 +29,7 @@ body {
 .navbar-brand {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     font-weight: 600;
     color: beige;
     background-color: firebrick;
@@ -49,6 +49,19 @@ body {
 .navbar-toggler {
     border: 0;
     color: beige;
+}
+/* Hero image*/
+
+.hero{
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.introduction {
+    margin: 10px;
+    text-align: justify;
 }
 
 /* Footer */
@@ -86,7 +99,7 @@ footer {
      align-items: center;
      max-width: 60%;
      margin-left: 25%;
-     margin-top: 10%;
+     margin-top: 5%;
      
  }
 
@@ -99,7 +112,7 @@ footer {
 
  /* maps section*/
 
-#section {
+section {
     flex-direction: column;
     display: none;
 }
@@ -120,6 +133,7 @@ footer {
  .btn {
     top: 10px;
     left: 25%;
+    margin-bottom: 10px;
     background-color: firebrick;
     color: beige;
     font-weight: bold;
@@ -131,3 +145,12 @@ footer {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .5) ;
 }
 
+/* Bottom image */
+
+.bottom-img {
+    background-image: url(../images/bottom.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    margin-top: 10px;
+}
