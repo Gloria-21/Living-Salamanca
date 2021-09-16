@@ -154,3 +154,16 @@ section {
     height: 30vh;
     margin-top: 10px;
 }
+
+/* contact us */
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.features {
+    text-align: center;
+    padding: 25px;
+}
