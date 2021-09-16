@@ -1,7 +1,7 @@
 # Living Salamanca (Interactive Frontend Development Milestone Project)
 ## Purpose of the project
 
-The purpose of this project is to create a website that offers a different holidays experience learning Spanish in the historical city of Salamanca (Spain). Salamanca has one of the oldest universities in Europe and it hosts the Spanish department where all the DELE exams are produced and marked. Also, I have added other features on the website to help to know and enjoy the city such as accommodation, what to visit, eating, and shopping.
+The purpose of this project is to create a website that offers a different holidays experience learning Spanish in the historical city of Salamanca (Spain). Salamanca has one of the oldest universities in Europe and it hosts the Spanish department where all the DELE exams are produced and marked. Also, I have added other features on the website to help to know and enjoy the city such what to visit, eating, and shopping.
 ## User stories
 
 This project has been designed with someone that is interested in learning Spanish in mind, that is our ideal end-user. The expected scope of people attending these courses is to be in the range of 18 to 30 years old.
@@ -17,7 +17,7 @@ This project has been designed with someone that is interested in learning Spani
 
 * Carousel
 
-* Map section
+* Map section 
 ## Future features
 
 ## Desing
