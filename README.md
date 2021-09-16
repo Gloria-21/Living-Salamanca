@@ -1,4 +1,6 @@
 # Living Salamanca (Interactive Frontend Development Milestone Project)
+
+[Deployed website]( https://gloria-21.github.io/Living-Salamanca/)
 ## Purpose of the project
 
 The purpose of this project is to create a website that offers a different holidays experience learning Spanish in the historical city of Salamanca (Spain). Salamanca has one of the oldest universities in Europe and it hosts the Spanish department where all the DELE exams are produced and marked. Also, I have added other features on the website to help to know and enjoy the city such what to visit, eating, and shopping.
