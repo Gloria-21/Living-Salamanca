@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a3a5717c56.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Living Salamanca</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar-->
+        <nav class="navbar navbar-expand-sm fixed-top" style="background-color:firebrick">
+            <a class="navbar-brand" href="index.html">
+                <img src="/assets/images/logo.png" width="50" height="50" alt="globe outline">
+                Living Salamanca</a>
+            <button class="navbar-toggler navbar-dark ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#">Activities</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Features-->
+    <div class="features-container contact-us">
+            <div class="row">
+                <div class="col-12 pt-5 my-5">
+                    <h2>We want to hear from you!</h2>
+                    <h4>Email us to contact@</h4>
+                </div>
+                <hr>
+                <form class="contact-container" action="success.html">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName">First Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Name" required />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputlastname">Last Name</label>
+                            <input type="text" class="form-control" id="inputlastname" placeholder="Last Name"
+                                required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSubject">Subject</label>
+                        <input type="text" class="form-control" id="inputSubject" placeholder="Subject" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="FormControlTextarea">Text Area</label>
+                        <textarea class="form-control" id="FormControlTextarea" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-card mr-5" role="button">Submit</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+    <!--Footer-->
+    <footer class="container-fuid">
+        <div class="row">
+            <div class="col-6 col-md-6 col-lg-6">
+                <h5 class="uppercase general-sub ">Get in touch!
+                    <a class="btn " href="contact-us.html" role="button">Contact Us</a></h5>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com">
+                            <i class="fab fa-facebook"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com">
+                            <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Footer-->
+    <footer class="container-fluid">
+        <ul class="list-inline social-links">
+            <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com/TurismoSalamanca">
+                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="https://instagram.com/visitsalamanca/">
+                    <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="https://twitter.com/salamanca_ven?lang=en">
+                    <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <script src="/assets/js/script.js"></script>
+
+    <!--Google Maps API & maker clusters-->
+    <script>
+        var APIKey = "AIzaSyDONGVKoGQ534lfMPni_9uiFD1WpWpiJxY";
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDONGVKoGQ534lfMPni_9uiFD1WpWpiJxY&callback=initMap&libraries=&v=weekly"
+        async></script>
+
+</body>
+
+</html>
