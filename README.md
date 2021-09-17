@@ -8,8 +8,8 @@ The purpose of this project is to create a website that offers a different holid
 
 This project has been designed with someone that is interested in learning Spanish in mind, that is our ideal end-user. The expected scope of people attending these courses is to be in the range of 18 to 30 years old.
 
-* As an international student, I want to know the types of courses on offer and which one adapts better to my necessities
-* As an international student, I will fing useful some basic information about the city such as acommodation or where to eat
+* As an international student, I want to know the different educational centers on offer and which ones adapt better to my necessities
+* As an international student, I will find useful some basic information about the city such as acommodation or where to eat
 * As an international student, I will like to learn about the culture of a different country and the rich history of Salamanca
 ## Features
 
@@ -48,6 +48,11 @@ This project has been designed with someone that is interested in learning Spani
 
 ## Wireframe
 
+* [Desktop Wireframe](https://share.balsamiq.com/g/3CRFBJYQPkeL1Hw5sZ3YEx.png)
+
+* [Mobile Wireframe](https://share.balsamiq.com/g/afyQrvqW1pGHFpbXXqTQpy.png)
+
+There are few elements that have changed if you compare the original wireframe with the actual project. I decided to simplify the navbar, but all in all the essence of the original idea is still there
 ## Technologies used
 
 As it follows below
@@ -93,6 +98,7 @@ As it follows below
 
 ## Test user stories
 
+
 ## Fixed bugs
 
 This preyect has been quite challenging as the desing I had in mind didn't contain anough javaScript content, therefore I decided to change some of the features to fill this gap.
@@ -112,7 +118,7 @@ This website has been developed on Gitpod, using Github to host the repository
 
 These are the step followed to deploy via Gitpod:
 1. Log in to the Gitpod account 
-2. Chose the MS1 repository
+2. Chose the MS2 repository
 3. Add your code 
 4. Type "python3 -m http.server" on the terminal
 5. A new screen will pop up with the results of the code on the browser
@@ -121,7 +127,7 @@ These are the step followed to deploy via Gitpod:
 These are the steps followed to deploy this website using GitHub:
 
 1. Log in to your  GitHub account
-2. Select MS1 on my repositories
+2. Select MS2 on my repositories
 3. Go to settings on the repository
 4. Scroll down to the GitHub pages area
 5. Select the Master Branch from the Source dropdown menu
@@ -147,19 +153,21 @@ A clone of the original repository should be available on your computer
  * [Salamanca-Spain](http://salamanca-spain.info/)
  ### Media
  Some of the photos shown on this prject have been taken from [Pexel](https://www.pexels.com/) as per below
- * [Enging Akyurt](https://www.pexels.com/photo/white-bed-sheet-set-2736388/) for the acommodation
- * [Phil Evenden](https://www.pexels.com/photo/city-water-building-lake-8335363/)
+ 
+ * [Phil Evenden](https://www.pexels.com/photo/city-water-building-lake-8335363/) for the courses image
 
  Also I have used [Unplash]()
  * [Sergio Otoya](https://unsplash.com/photos/pDd4-iD9KTo) for the eating image
  * [Charles Deluvio](https://unsplash.com/photos/pDd4-iD9KTo) for the shopping image
 
+ I have used [Wikicommons](https://commons.wikimedia.org/wiki/File:Salamanca_017.jpg) for the what to visit image on the carousel
+
  The bottom image has been taken from [Wikitravel.org](https://wikitravel.org/shared/File:Salamanca_Banner.jpg)
   
  ### Code
- * [Code Intitute](https://codeinstitute.net/)
- * [Slack Community](https://slack.com/intl/en-no/)
- * [Stack Overflow](https://stackoverflow.com/)
- * [W3 School](https://www.w3schools.com/)
+ * [Code Intitute](https://codeinstitute.net/) was the main source for this project
+ * [Slack Community](https://slack.com/intl/en-no/) 
+ * [Stack Overflow](https://stackoverflow.com/) and [W3school](https://www.w3schools.com/) as main places to go to resolve questions
+ * [Google maps](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration?hl=en) it was used to show location for different sections of the carousel. Also I used [Google Maps JavaScript API Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw) in order to clarify the use of the markers on the map.
 
 
