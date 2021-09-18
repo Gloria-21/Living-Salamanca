@@ -159,10 +159,20 @@ section {
 
 form {
     max-width: 500px;
-    margin: auto;
+    padding-top: 10px;
+    margin: 0 auto;
 }
 
 .features-container {
     text-align: center;
     padding: 25px;
+}
+
+input { 
+    margin-bottom: 10px; 
+}
+
+.submitbtn {
+    margin-top: 10px;
+    padding-right: 10px;
 }
