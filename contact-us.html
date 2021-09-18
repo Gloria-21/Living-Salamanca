@@ -11,6 +11,12 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_Cqq9AEN1nUOJ1N4fADRdM");
+        })();
+    </script>
     <title>Living Salamanca</title>
 </head>
 
@@ -49,11 +55,11 @@
                 <h2>Contact us to get the best offers for your Spanish courses!</h2>
             </div>
             <hr>
-            <form class="contact-container" action="success.html">
+            <form onsubmit="return sendMail(this);" class="contact-container" >
                 <div class="form-row">
-                    <input type="text" name="name" class="form-control" id="inputName" placeholder="Name" required />
-                    <input type="text" name="emailaddress" class="form-control" id="inputEmail" placeholder="Email" required />
-                    <textarea class="form-control" name="informationsummary"id="FormControlTextarea" placeholder="Text Area" rows="3"
+                    <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Name" required />
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
+                    <textarea class="form-control" name="informationsummary" id="informationsummary" placeholder="Text Area" rows="3"
                         required></textarea>
                 </div>
                 <div class="form-group">
@@ -93,15 +99,6 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
     <script src="/assets/js/script.js"></script>
-
-    <!--Google Maps API & maker clusters-->
-    <script>
-        var APIKey = "AIzaSyDONGVKoGQ534lfMPni_9uiFD1WpWpiJxY";
-    </script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDONGVKoGQ534lfMPni_9uiFD1WpWpiJxY&callback=initMap&libraries=&v=weekly"
-        async></script>
-
 </body>
 
 </html>
