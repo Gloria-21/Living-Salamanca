@@ -1,3 +1,5 @@
+/**  Links the contact form with Email JS */
+/** Code taken from Code Institute and adapted to fit the project */
 function sendEmail(contactForm) {
     emailjs.send("service_7wjurxm", "Spanish courses", {
             "from_name": contactForm.fullname.value,
@@ -6,14 +8,14 @@ function sendEmail(contactForm) {
         })
         .then(
             function (response) {
-                console.log("SUCCESS", response);
+                console.log("SUCCESS - your email has been sent", response);
+                document.getElementById("modal-success");
             },
             function (error) {
-                console.log("FAILED", error);
+                console.log("FAILED - your email has not been sent", error);
             }
         );
-
+        contactForm.reset();
     return false;
 }
 
-document.getElementById("contactForm").addEventListener("submit", sendEmail);
