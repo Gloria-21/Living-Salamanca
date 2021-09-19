@@ -157,10 +157,11 @@ section {
 
 /* contact us */
 
-form {
+.center-form {
     max-width: 500px;
     padding-top: 10px;
     margin: 0 auto;
+    
 }
 
 .features-container {
@@ -172,7 +173,11 @@ input {
     margin-bottom: 10px; 
 }
 
-.submitbtn {
+.Submit {
     margin-top: 10px;
     padding-right: 10px;
+}
+
+#contactForm {
+    width: 100%;
 }
