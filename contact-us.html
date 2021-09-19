@@ -24,7 +24,7 @@
         <!-- Navbar-->
         <nav class="navbar navbar-expand-sm fixed-top" style="background-color:firebrick">
             <a class="navbar-brand" href="index.html">
-                <img src="/assets/images/logo.png" width="50" height="50" alt="globe outline">
+                <img src="assets/images/logo.png" width="50" height="50" alt="globe outline">
                 Living Salamanca</a>
             <button class="navbar-toggler navbar-dark ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -55,18 +55,17 @@
                 <p>Send us an email and start enjoying the city soon!</p>
             </div>
             <hr>
-            <form onsubmit="return sendMail(this);">
-                <div class="form-row">
+            <div class="center-form">
+                <form onsubmit="return sendMail(this);">
                     <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Name" required />
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
-                    <textarea name="informationsummary" class="form-control" id="informationsummary" placeholder="Text Area" rows="3" required></textarea>
-                </div>
-                <div class="form-group">
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email"
+                        required />
+                    <textarea name="informationsummary" class="form-control" id="informationsummary"
+                        placeholder="Text Area" rows="3" required></textarea>
                     <button class="btn submitbtn btn-lg mr-5">Submit</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
-    </div>
         <!--Footer-->
     <footer class="container-fluid">
         <ul class="list-inline social-links">
@@ -96,7 +95,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
-    <script src="/assets/js/sendEmail.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
