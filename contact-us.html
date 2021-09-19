@@ -56,13 +56,13 @@
             </div>
             <hr>
             <div class="center-form">
-                <form onsubmit="return sendMail(this);">
+                <form id="contactForm" onsubmit="return sendEmail(this);">
                     <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Name" required />
                     <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email"
                         required />
                     <textarea name="informationsummary" class="form-control" id="informationsummary"
                         placeholder="Text Area" rows="3" required></textarea>
-                    <button class="btn submitbtn btn-lg mr-5">Submit</button>
+                    <button class="btn Submit btn-lg mr-5">Submit</button>
                 </form>
             </div>
         </div>
