@@ -1,10 +1,8 @@
-function sendEmail(event) {
-    event.preventDefault();
-        
+function sendEmail(contactForm) {
     emailjs.send("service_7wjurxm", "Spanish courses", {
-        "from_name": this.fullname.value,
-        "from_email": this.emailaddress.value,
-        "information_request": this.informationsummary.value,
+        "from_name": contactForm.fullname.value,
+        "from_email": contactForm.emailaddress.value,
+        "information_request": contactForm.informationsummary.value,
     })
      .then(
         function(response) {
@@ -15,7 +13,8 @@ function sendEmail(event) {
         }
     );
     
-    this.reset();
     
     return false;
 }
+
+document.getElementById("contactForm").addEventListener("submit", sendEmail);
