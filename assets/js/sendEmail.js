@@ -19,5 +19,3 @@ function sendEmail(event) {
     
     return false;
 }
-
-document.getElementById("contactForm").addEventListener("submit", sendEmail);
