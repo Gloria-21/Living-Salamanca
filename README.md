@@ -96,15 +96,29 @@ As it follows below
 
 ## Testing
 
+I have done the testing for my website using the dev tools on google chrome. I have been testing regularly checking that the results were the expected on different sizes, from mobile devices to desktop and tablet, making sure the website was responsive in all of them.
+I used this tool as a main source to implement my code, trying the functionality and styling effects there first and adding them to my code afterward.
+
+At a later stage, when the site was deployed, the website was tested by family and friends who looked on different devices and gave feedback on responsitivity and user experience.
+
+### Validator testing
+
+To check the validity of the codes I have used [W3C Markup Validation](https://validator.w3.org/), [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) and [JS Hint](https://jshint.com/)
+
+INDEX.HTML / CONTACT-US.HTML
+Style.css page has passed the validation with 0 errors [style.css](/doc/validators/CSSValidator.png)
+
+### Performance
+
+To check the website performance level as well as the speed I used [Google lighthouse](https://developers.google.com/web/tools/lighthouse)
 ## Test user stories
 
 
 ## Fixed bugs
 
-This preyect has been quite challenging as the desing I had in mind didn't contain anough javaScript content, therefore I decided to change some of the features to fill this gap.
-I decided to create a Navbar with JS
+This preyect has been quite challenging from the very beginning as JavaScript is a new is a brand new language and I wasn't confident with it.
 
-Regarding the carusel, has been also quite challenging as it is a feature that I have never used before. I decided to have a button on each slide of the carousel and link it to the section right below it so it would have the visual element from the slide and also an explanation below. To get this effect I used an event listener on JavaSript
+* The carusel, has been quite challenging as it is a feature that I have never used before. I decided to have a button on each slide of the carousel and link it to the section right below it so it would have the visual element from the slide and also an explanation below. To get this effect I used an event listener on JavaSript
 
 Another feature that is brand new for me is the design of the maps. I have followed the Google Maps plataform to create the map that you can find on the website. I have chosen the map with markes animations with set timeout and I have adapted to my design.
 
