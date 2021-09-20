@@ -8,8 +8,9 @@ The purpose of this project is to create a website that offers a different holid
 
 This project has been designed with someone that is interested in learning Spanish in mind, that is our ideal end-user. The expected scope of people attending these courses is to be in the range of 18 to 30 years old.
 
+* As an international student, I want to navigate throught the website easily and fidn the information that I am looking for
 * As an international student, I want to know the different educational centers on offer and which ones adapt better to my necessities
-* As an international student, I will find useful some basic information about the city such as acommodation or where to eat
+* As an international student, I will find useful some basic information to navigate the city such as where to eat or to go shopping
 * As an international student, I will like to learn about the culture of a different country and the rich history of Salamanca
 ## Features
 
@@ -144,6 +145,17 @@ To check the validity of the codes I have used [W3C Markup Validation](https://v
 To check the website performance level as well as the speed I used [Google lighthouse](https://developers.google.com/web/tools/lighthouse)
 ## Test user stories
 
+1. As an international student, I want to navigate throught the website easily and fidn the information that I am looking for
+    * Upon entering the website, the user will be welcomed with a calm and easy navigation site. The activities on offer can be found signed-posted on the navbar, that is linked to the carousel. Once on the carousel each of the slides will show a self-explanatory button that will link to the map section
+
+2. As an international student, I want to know the different educational centers on offer and which ones adapt better to my necessities
+    * On the carousel, the user will find the Spanish couses button. Once clicked, it will display a section with information about the courses. Also there there is an indication to go to Contact us for more information on the courses.
+
+3. As an international student, I will find useful some basic information to navigate the city such as where to eat or to go shopping
+    * Both activities are shown on the carousel under Eating and Shopping buttons. Once clicked those buttons by the user a section will display and there will be an icon-button that will drop the markes on the map indicating the suggestions for Eating and Shopping
+
+4. As an international student, I will like to learn about the culture of a different country and the rich history of Salamanca
+    * This action is reflected on the What to visit button on the carousel. When the user clicks that button a new section woudl appear, a small tour with some of the most important hightlight of the city is suggested there
 
 ## Fixed bugs
 
