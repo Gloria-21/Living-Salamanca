@@ -13,14 +13,39 @@ This project has been designed with someone that is interested in learning Spani
 * As an international student, I will like to learn about the culture of a different country and the rich history of Salamanca
 ## Features
 
-* Navbar 
+* **Navbar**
 
-* Hero image
+The navbar gives a friendly user experience as links the homepage, the activity section, and the Contact-us page.
+![navbar](/doc/screenshots/navbar.png)
 
-* Carousel
+Also on the mobile version, it can be found on the top right corner as a burger button that collapses, giving a better UX experience.
 
-* Map section 
+![navbar mobile](/doc/screenshots/navbar-mobile.png)
+
+* **Carousel**
+
+Right underneath the hero image, the carousel with all different activities is located. This is a visual feature that keeps the attention of the user and invites to click the buttons to discover more about those activities.
+
+![carousel](doc/screenshots/carousel.png)
+
+* **Map section**
+
+The carousel is linked to the Map section through an event listener. This section expands on the different activities shown on the carousel
+
+* **Contact-us page**
+
+This page is is presenting a form that is linked via Email Js to an email, so every time that user sends a message, we will receive an email. At the same time that user will see a pop up modal informing of the success of the message.
+
+![Email JS](doc/screenshots/emailJs.png)
+
+![Sucess modal](doc/screenshots/Success.png)
+
+
+* **Footer**
+
+Each page has on the footer has links to social media. Those links are connected to real pages of the city of Salamanca
 ## Future features
+
 
 ## Desing
 
@@ -48,6 +73,8 @@ This project has been designed with someone that is interested in learning Spani
 
 ## Wireframe
 
+The wireframes that can be found below have been created using Balsamiq during the Scope plane part of the design and planning process of this project.
+
 * [Desktop Wireframe](https://share.balsamiq.com/g/3CRFBJYQPkeL1Hw5sZ3YEx.png)
 
 * [Mobile Wireframe](https://share.balsamiq.com/g/afyQrvqW1pGHFpbXXqTQpy.png)
@@ -72,7 +99,7 @@ As it follows below
 
     I have used Google font to import the fonts Lato and Roboto into my style.css file, which is being used on all pages throughout the project
 
-3. [Flaticon](https://www.flaticon.com/)
+3. [Font Awesome](https://fontawesome.com/)
 
     Used for the icons on this website
 
