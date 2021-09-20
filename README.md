@@ -30,7 +30,8 @@ Right underneath the hero image, the carousel with all different activities is l
 
 * **Map section**
 
-The carousel is linked to the Map section through an event listener. This section expands on the different activities shown on the carousel
+The carousel is linked to the Map section through an event listener. This section expands on the different activities shown on the carousel which have a icon-button.
+This button display the makers clusters dropping into a map
 
 * **Contact-us page**
 
@@ -45,6 +46,8 @@ This page is is presenting a form that is linked via Email Js to an email, so ev
 
 Each page has on the footer has links to social media. Those links are connected to real pages of the city of Salamanca
 ## Future features
+
+* In the future, when the time doesn't constrain, I want to add infoWindow to the markers so they will have a description on them and a possible link to websites if that is feasible.
 
 
 ## Desing
@@ -132,8 +135,9 @@ At a later stage, when the site was deployed, the website was tested by family a
 
 To check the validity of the codes I have used [W3C Markup Validation](https://validator.w3.org/), [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) and [JS Hint](https://jshint.com/)
 
-INDEX.HTML / CONTACT-US.HTML
-Style.css page has passed the validation with 0 errors [style.css](/doc/validators/CSSValidator.png)
+* Index.html page has passed the validator with no error [index.html](/doc/validators/indexvalidator.png)
+* CONTACT-US.HTML
+* Style.css page has passed the validation with 0 errors [style.css](/doc/validators/CSSValidator.png)
 
 ### Performance
 
