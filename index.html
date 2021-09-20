@@ -54,7 +54,7 @@
             wealth of history and culture.</p>
     </div>
     <!-- Carousel -->
-    <div id="carousel"class="carousel-container">
+    <div id="carousel" class="carousel-container">
         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -72,7 +72,7 @@
                 <div class="carousel-item">
                     <img src="assets/images/img2.jpg" class="d-block w-100" alt="view of the city from the river">
                     <div class="carousel-caption">
-                        <button id="button-accomodation" class="btn btn-lg">Spanish Courses</button>
+                        <button id="button-courses" class="btn btn-lg">Spanish Courses</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -99,62 +99,48 @@
             </a>
         </div>
     </div>
-    
     <!--Maps section -->
-    <section id="section-first" class="container-fluid">
-        <div class="row img1">
+    <div class="container">
+        <div class="row">
             <div class="col">
-                <button id="drop" class="btn btn-neighborhoods"><i class="fas fa-landmark"></i></button>
-                <br>
-                <p> There are plenty of places to visit in Salamanca. Here you can find some of the most representives of
-                    the city</p>
-                <br>
-                <p>Plaza Mayor</p>
-                <p>Cathedral</p>
-                <p>Calixto and Melibea's garden</p>
-                <p>Casa Lis museum</p>
-            </div>
-            <div class="col-8">
-                <div id="map" class="box-shadow"></div>
+                <div id="section-first" class="section-hidden">
+                    <button id="drop" class="btn btn-neighborhoods"><i class="fas fa-landmark"></i></button>
+                    <br>
+                    <p> There are plenty of places to visit in Salamanca. Here you can find some of the most
+                        representives of
+                        the city</p>
+                    <br>
+                    <p>Plaza Mayor</p>
+                    <p>Cathedral</p>
+                    <p>Calixto and Melibea's garden</p>
+                    <p>Casa Lis museum</p>
+                </div>
+                <div id="section-second" class="section-hidden">
+                    <button class="btn btn-courses"><i class="fas fa-graduation-cap"></i></button>
+                    <p>Salamanca is known as the City of Spanish, if you want to learn Spanish we will offer you the
+                        best educational centers that will adapt to your necessities.</p>
+                    <p>They offer an effective and modern method of learning, with qualified teachers in a warm and
+                        personalized atmosphere.</p>
+                    <p>Contact us to get more information</p>
+                </div>
+                <div id="section-third" class="section-hidden">
+                    <button class="btn btn-eating"><i class="fas fa-utensils"></i></button>
+                    <p>Here you can find some suggestions to eat out and enjoy the rich gastronomy of Salamanca.</p>
+                    <p>There is a huge variaty of places, either you want to go for informal and delicious tapas or you
+                        rather go to a fancy restaurant.</p>
+                </div>
+                <div id="section-fourth" class="section-hidden">
+                    <button class="btn btn-shops"><i class="fas fa-shopping-bag"></i></button>
+                    <p>Featuring an unrivalled mix of premium and high street retailers located in the city centre,
+                        surrounded by the historic and beautiful architecture of the world-famous University.</p>
+                    <p>Salamanca offers a trully exceptional shopping experience</p>
+                </div>
+                <div class="col">
+                    <div id="map" class="box-shadow"></div>
+                </div>
             </div>
         </div>
-    </section>
-    <section id="section-second" class="container-fluid">
-        <div class="row imag2">
-            <div class="col">
-                <button class="btn btn-courses"><i class="fas fa-graduation-cap"></i></i></button></button>
-                <p>Salamanca is known as the City of Spanish, if you want to learn Spanish we will offer you the best educational centers that will adapt to your necessities.</p>
-                <p>They offer an effective and modern method of learning, with qualified teachers in a warm and personalized atmosphere.</p>
-                <p>Contact us to get more information</p>
-            </div>
-            <div class="col-8">
-                <div class="box-shadow"></div>
-            </div>
-        </div>
-    </section>
-    <section id="section-third" class="container-fluid">
-        <div class="row imag3">
-            <div class="col">
-                <button class="btn btn-eating"><i class="fas fa-utensils"></i></button>
-                <p>Here you can find some suggestions to eat out and enjoy the rich gastronomy of Salamanca.</p>
-                <p>There is a huge variaty of places, either you want to go for informal and delicious tapas or you rather go to a fancy restaurant.</p>
-            </div>
-            <div class="col-8">
-                <div class="box-shadow"></div>
-            </div>
-        </div>
-    </section>
-    <section id="section-fourth" class="container-fluid">
-        <div class="row imag4">
-            <div class="col">
-                <button class="btn btn-shops"><i class="fas fa-shopping-bag"></i></button>
-                <p></p>
-            </div>
-            <div class="col-8">
-                <div class="box-shadow"></div>
-            </div>
-        </div>
-    </section>
+    </div>
     <div class="bottom-img"></div>
     <!--Footer-->
     <footer class="container-fluid">
@@ -179,7 +165,7 @@
             </li>
         </ul>
     </footer>
-
+    <!--End Footer-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -187,12 +173,9 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
     <script src="assets/js/script.js"></script>
-
     <!--Google Maps API & maker clusters-->
-    <script>
-        var APIKey = "AIzaSyDONGVKoGQ534lfMPni_9uiFD1WpWpiJxY";
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDONGVKoGQ534lfMPni_9uiFD1WpWpiJxY&callback=initMap&libraries=&v=weekly"
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDONGVKoGQ534lfMPni_9uiFD1WpWpiJxY&callback=initMap&libraries=&v=weekly"
         async></script>
 
 </body>
