@@ -17,17 +17,11 @@ This project has been designed with someone that is interested in learning Spani
 * **Navbar**
 
 The navbar gives a friendly user experience as links the homepage, the activity section, and the Contact-us page.
-![navbar](/doc/screenshots/navbar.png)
-
 Also on the mobile version, it can be found on the top right corner as a burger button that collapses, giving a better UX experience.
-
-![navbar mobile](/doc/screenshots/navbar-mobile.png)
 
 * **Carousel**
 
 Right underneath the hero image, the carousel with all different activities is located. This is a visual feature that keeps the attention of the user and invites to click the buttons to discover more about those activities.
-
-![carousel](doc/screenshots/carousel.png)
 
 * **Map section**
 
@@ -146,10 +140,22 @@ To check the website performance level as well as the speed I used [Google light
 ## Test user stories
 
 1. As an international student, I want to navigate throught the website easily and fidn the information that I am looking for
-    * Upon entering the website, the user will be welcomed with a calm and easy navigation site. The activities on offer can be found signed-posted on the navbar, that is linked to the carousel. Once on the carousel each of the slides will show a self-explanatory button that will link to the map section
+    * Upon entering the website, the user will be welcomed with a calm and easy navigation site. The activities on offer can be found signed-posted on the navbar, that is linked to the carousel. 
+    
+    ![navbar](/doc/screenshots/navbar.png)
+
+    On the mobile version there is a burger button with the navbar activity on the top right corner, that gives a better UX experience
+
+    ![navbar mobile](/doc/screenshots/navbar-mobile.png)
+
+    Once on the carousel each of the slides will show a self-explanatory button that will link to the map section
+
+    ![carousel](doc/screenshots/carousel.png)
 
 2. As an international student, I want to know the different educational centers on offer and which ones adapt better to my necessities
     * On the carousel, the user will find the Spanish couses button. Once clicked, it will display a section with information about the courses. Also there there is an indication to go to Contact us for more information on the courses.
+
+    ![Spanish courses](doc/screenshots/spanishcourses.png)
 
 3. As an international student, I will find useful some basic information to navigate the city such as where to eat or to go shopping
     * Both activities are shown on the carousel under Eating and Shopping buttons. Once clicked those buttons by the user a section will display and there will be an icon-button that will drop the markes on the map indicating the suggestions for Eating and Shopping
