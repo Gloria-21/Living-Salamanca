@@ -223,8 +223,14 @@ A clone of the original repository should be available on your computer
   
  ### Code
  * [Code Intitute](https://codeinstitute.net/) was the main source for this project
- * [Slack Community](https://slack.com/intl/en-no/) 
+ * [Slack Community](https://slack.com/intl/en-no/) for their support, specially to Sean Young for sharing his knowledge on Js with me
  * [Stack Overflow](https://stackoverflow.com/) and [W3school](https://www.w3schools.com/) as main places to go to resolve questions
  * [Google maps](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration?hl=en) it was used to show location for different sections of the carousel. Also I used [Google Maps JavaScript API Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw) in order to clarify the use of the markers on the map.
+ * [Sean Young](https://code-institute-room.slack.com/archives/C01DS0WAHLP/p1627063140129000?thread_ts=1627063140.129000&cid=C01DS0WAHLP) did a very interesting webinar on event listener that helped me to undestand the use of them
+
+ * Acknowledgements:
+    * I would like to thank my fellow students in the Slack community and the tutor is there for their support
+    * Tutor support for their assistance resolving bugs 
+    * Also I would like to thank my mentor for his advice and aid in debugging technical issues
 
 
