@@ -9,7 +9,7 @@ function sendEmail(contactForm) {
         .then(
             function (response) {
                 console.log("SUCCESS - your email has been sent", response);
-                document.getElementById("modal-success");
+                $('#modal-success').modal();
             },
             function (error) {
                 console.log("FAILED - your email has not been sent", error);
@@ -18,4 +18,3 @@ function sendEmail(contactForm) {
         contactForm.reset();
     return false;
 }
-
