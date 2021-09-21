@@ -95,6 +95,10 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.container-fluid {
+    margin-top: 50px;
+}
+
 /* Carousel */
 
 .carousel-container {
@@ -110,13 +114,11 @@ footer {
     color: beige
 }
 
-
 /* maps section*/
 
 .container {
     margin-top: 50px;
     flex-direction: column;
-
 }
 
 .section-hidden {
@@ -163,7 +165,6 @@ footer {
     max-width: 500px;
     padding-top: 10px;
     margin: 0 auto;
-
 }
 
 .features-container {
@@ -175,7 +176,7 @@ input {
     margin-bottom: 10px;
 }
 
-.Submit {
+.submit {
     margin-top: 10px;
     padding-right: 10px;
 }
