@@ -169,11 +169,13 @@ To check the website performance level as well as the speed I used [Google light
 
 ## Fixed bugs
 
-This preyect has been quite challenging from the very beginning as JavaScript is a new is a brand new language and I wasn't confident with it.
+This proyect has been quite challenging from the very beginning as JavaScript is a brand new language for me and I wasn't confident working with it.
 
-* The carusel, has been quite challenging as it is a feature that I have never used before. I decided to have a button on each slide of the carousel and link it to the section right below it so it would have the visual element from the slide and also an explanation below. To get this effect I used an event listener on JavaSript
+* The carusel, has been quite challenging as it is a feature that I have never used before. I decided to have a button on each slide of the carousel and link it to the section right below it so it would have the visual element from the slide and also an explanation below. To get this effect I used an event listener on JavaScript, but to get to the correct code I have tried few different approaches. The final one has been to create a function with all the sections and then to hide them so when a button is clicked that section alone will show.
 
-Another feature that is brand new for me is the design of the maps. I have followed the Google Maps plataform to create the map that you can find on the website. I have chosen the map with markes animations with set timeout and I have adapted to my design.
+* Another feature that was brand new for me was the design of the maps. I have followed the Google Maps plataform to create the map that you can find on the website. I have chosen the map with markes animations with set timeout and I have adapted them to my design. It proved quite tricky to do it in four different sections and four different locations each. In the end a function grouping the locations and an eventListener calling that function with an action of drop the markers when it was clicked did the trick.
+
+* Email Js was another feature that was not working as it should have to start with. I followed the videos on this subject from code institute and adapt them to fit my project. Then, I decided to add a modal as a success page. However, the modal was appearing every time the submit button was clicked. I have to amend the function on Js for a Jquery and delete the modal's elements from the submit button to fix it
 
 ## Suported screen and browsers
 
