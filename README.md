@@ -114,6 +114,10 @@ As it follows below
 
 8. [Google Maps Platform](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration?hl=en)
 
+9. [Favicon](https://favicon.io/)
+
+10. [Am I responsive](http://ami.responsivedesign.is/)
+
 ## Testing
 
 I have done the testing for my website using the dev tools on google chrome. I have been testing regularly checking that the results were the expected on different sizes, from mobile devices to desktop and tablet, making sure the website was responsive in all of them.
@@ -179,6 +183,15 @@ This proyect has been quite challenging from the very beginning as JavaScript is
 
 ## Suported screen and browsers
 
+The website was mainly tested on different screen sizes using the devtool.
+The web behaves in a responsive way in the different mobile sizes (Moto G4, Galaxy S5/A71, Pixel 2/2XL/3, iPhone 5/SE/6/7/8, iPhone 6/7/8 plus, iPhone X/10/12)
+
+It also behave as expected on tablets (iPad, iPad pro, surface duo)
+
+* Google Chrome: website worked as expected
+* Firefox: website worked as expected
+* Microsoft Edge: website worked as expected
+* Safari: website worked as expected
 ## Deployment
 
 This website has been developed on Gitpod, using Github to host the repository
@@ -241,8 +254,8 @@ A clone of the original repository should be available on your computer
  * [Sean Young](https://code-institute-room.slack.com/archives/C01DS0WAHLP/p1627063140129000?thread_ts=1627063140.129000&cid=C01DS0WAHLP) did a very interesting webinar on event listener that helped me to undestand the use of them
 
  ### Acknowledgements:
-* I would like to thank my fellow students in the Slack community and the tutor is there for their support
-* Tutor support for their assistance resolving bugs 
-* Also I would like to thank my mentor for his advice and aid in debugging technical issues
+* I would like to thank my fellow students in the Slack community and the tutor assistance for their help, without them I could not have finished the project on time.
+* I would like to thank my mentor for his advice and aid in debugging technical issues
+* And also my partner and family for putting up with me when I am under pressure
 
 
