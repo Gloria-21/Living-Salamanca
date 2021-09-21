@@ -2,30 +2,28 @@
 
 const BUTTON_VISIT = document.querySelector("#button-visit");
 const SECTION_FIRST = document.querySelector("#section-first");
+const BUTTON_COURSE = document.querySelector("#button-courses");
+const SECTION_SECOND = document.querySelector("#section-second");
+const BUTTON_EATING = document.querySelector("#button-eating");
+const SECTION_THIRD = document.querySelector("#section-third");
+const BUTTON_SHOPPING = document.querySelector("#button-shopping");
+const SECTION_FOURTH = document.querySelector("#section-fourth");
+
 
 BUTTON_VISIT.addEventListener("click", function () {
   hideAllSections();
   SECTION_FIRST.style.display = 'block';
 });
 
-const BUTTON_COURSE = document.querySelector("#button-courses");
-const SECTION_SECOND = document.querySelector("#section-second");
-
 BUTTON_COURSE.addEventListener("click", function () {
   hideAllSections();
   SECTION_SECOND.style.display = 'block';
 });
 
-const BUTTON_EATING = document.querySelector("#button-eating");
-const SECTION_THIRD = document.querySelector("#section-third");
-
 BUTTON_EATING.addEventListener("click", function () {
   hideAllSections();
   SECTION_THIRD.style.display = 'block';
 });
-
-const BUTTON_SHOPPING = document.querySelector("#button-shopping");
-const SECTION_FOURTH = document.querySelector("#section-fourth");
 
 BUTTON_SHOPPING.addEventListener("click", function () {
   hideAllSections();
@@ -138,24 +136,21 @@ function drop(locationsArray) {
 /* Markers clusters dropping into the map*/
 
 const NEIGHBORHOOD_BUTTON = document.querySelector(".btn-neighborhoods");
+const COURSE_BUTTON = document.querySelector(".btn-courses");
+const EATING_BUTTON = document.querySelector(".btn-eating");
+const SHOP_BUTTON = document.querySelector(".btn-shops");
 
 NEIGHBORHOOD_BUTTON.addEventListener("click", () => {
   drop(NEIGHBORHOODS);
 });
 
-const COURSE_BUTTON = document.querySelector(".btn-courses");
-
 COURSE_BUTTON.addEventListener("click", () => {
   drop(COURSES);
 });
 
-const EATING_BUTTON = document.querySelector(".btn-eating");
-
 EATING_BUTTON.addEventListener("click", () => {
   drop(RESTAURANTS);
 });
-
-const SHOP_BUTTON = document.querySelector(".btn-shops");
 
 SHOP_BUTTON.addEventListener("click", () => {
   drop(SHOPS);
