@@ -32,11 +32,6 @@ This button display the makers clusters dropping into a map
 
 This page is is presenting a form that is linked via Email Js to an email, so every time that user sends a message, we will receive an email. At the same time that user will see a pop up modal informing of the success of the message.
 
-![Email JS](doc/screenshots/emailJs.png)
-
-![Sucess modal](doc/screenshots/Success.png)
-
-
 * **Footer**
 
 Each page has on the footer has links to social media. Those links are connected to real pages of the city of Salamanca
@@ -133,6 +128,7 @@ To check the validity of the codes I have used [W3C Markup Validation](https://v
 * Index.html page has passed the validator with no error [index.html](/doc/validators/indexvalidator.png)
 * Contact-us.html page is showing two warnings regarding the type element on JavaScript, but that is required in order for Email Js to work [Contact-us.html](/doc/validator/contact-us.png)
 * Style.css page has passed the validation with 0 errors [style.css](/doc/validators/CSSValidator.png)
+* JavaScript has been validated on JS hint and it doesn't bring any warnings
 
 ### Performance
 
@@ -156,6 +152,14 @@ To check the website performance level as well as the speed I used [Google light
     * On the carousel, the user will find the Spanish couses button. Once clicked, it will display a section with information about the courses. Also there there is an indication to go to Contact us for more information on the courses.
 
     ![Spanish courses](doc/screenshots/spanishcourses.png)
+
+    On the Contact-us page a form will be display and once the form has been filled a modal will pop up informing of the success of the message
+
+    ![Sucess modal](doc/screenshots/Success.png)
+
+    At the same time the message sent by the user will be recieved on a email provided by Email Js
+
+    ![Email JS](doc/screenshots/emailJs.png)
 
 3. As an international student, I will find useful some basic information to navigate the city such as where to eat or to go shopping
     * Both activities are shown on the carousel under Eating and Shopping buttons. Once clicked those buttons by the user a section will display and there will be an icon-button that will drop the markes on the map indicating the suggestions for Eating and Shopping
