@@ -137,7 +137,7 @@ At a later stage, when the site was deployed, the website was tested by family a
 To check the validity of the codes I have used [W3C Markup Validation](https://validator.w3.org/), [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) and [JS Hint](https://jshint.com/)
 
 * Index.html page has passed the validator with no error [index.html](/doc/validators/indexvalidator.png)
-* CONTACT-US.HTML
+* Contact-us.html page is showing two warnings regarding the type element on JavaScript, but that is required in order for Email Js to work [Contact-us.html](/doc/validator/contact-us.png)
 * Style.css page has passed the validation with 0 errors [style.css](/doc/validators/CSSValidator.png)
 
 ### Performance
