@@ -1,5 +1,7 @@
 # Living Salamanca (Interactive Frontend Development Milestone Project)
 
+![Alt text](/doc/validator/responsive-mockup.png)
+
 [Deployed website]( https://gloria-21.github.io/Living-Salamanca/)
 ## Purpose of the project
 
