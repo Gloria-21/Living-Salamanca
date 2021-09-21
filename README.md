@@ -1,6 +1,6 @@
 # Living Salamanca (Interactive Frontend Development Milestone Project)
 
-![Alt text](/doc/validator/responsive-mockup.png)
+![Alt text](/doc/screenshots/responsive-mockup.png)
 
 [Deployed website]( https://gloria-21.github.io/Living-Salamanca/)
 ## Purpose of the project
@@ -40,8 +40,6 @@ Each page has on the footer has links to social media. Those links are connected
 ## Future features
 
 * In the future, when the time doesn't constrain, I want to add infoWindow to the markers so they will have a description on them and a possible link to websites if that is feasible.
-
-
 ## Desing
 
 * **Logo**
@@ -63,8 +61,6 @@ Each page has on the footer has links to social media. Those links are connected
     To create this palette I have used [coolors](https://coolors.co/)
 
     ![Palette](/doc/screenshots/palette.png)
-
-
 
 ## Wireframe
 
@@ -139,6 +135,7 @@ To check the validity of the codes I have used [W3C Markup Validation](https://v
 ### Performance
 
 To check the website performance level as well as the speed I used [Google lighthouse](https://developers.google.com/web/tools/lighthouse)
+![Atl text](/doc/validator/lighthouse.png)
 ## Test user stories
 
 1. As an international student, I want to navigate throught the website easily and fidn the information that I am looking for
